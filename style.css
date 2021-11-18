@@ -1,0 +1,13 @@
+canvas{
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    from{
+        box-shadow: 2px 2px 100px black;
+    }
+    to{
+        box-shadow: 2px 2px 10px red;
+    }
+}
